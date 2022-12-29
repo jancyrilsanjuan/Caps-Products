@@ -1,0 +1,156 @@
+CRITICAL - 2022-12-11 03:22:00 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('20')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 06:20:48 --> syntax error, unexpected 'Count' (T_STRING)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-12-11 06:21:00 --> Call to undefined method App\Models\DestinationModel::count_all_results
+#0 C:\laragon\www\Capstone-reco\app\Controllers\AdminController.php(15): CodeIgniter\Model->__call('count_all_resul...', Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\AdminController->admin()
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 06:21:02 --> Call to undefined method App\Models\DestinationModel::count_all_results
+#0 C:\laragon\www\Capstone-reco\app\Controllers\AdminController.php(15): CodeIgniter\Model->__call('count_all_resul...', Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\AdminController->admin()
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 06:21:02 --> Call to undefined method App\Models\DestinationModel::count_all_results
+#0 C:\laragon\www\Capstone-reco\app\Controllers\AdminController.php(15): CodeIgniter\Model->__call('count_all_resul...', Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\AdminController->admin()
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 06:29:48 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('30')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 20:36:16 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('30')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 20:40:08 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('7')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 20:40:42 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('7')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 07:25:43 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('47')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 07:26:32 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('21')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 16:00:06 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('97')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-12-11 16:27:09 --> Call to a member function isValid() on string
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-12-11 16:27:58 --> Call to a member function getRandomName() on string
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-12-11 16:30:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-12-11 16:31:02 --> Call to a member function isValid() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-12-11 16:33:51 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-12-11 16:34:48 --> Call to a member function isValid() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-12-11 16:38:19 --> Call to a member function getRandomName() on string
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

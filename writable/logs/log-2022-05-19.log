@@ -1,0 +1,132 @@
+CRITICAL - 2022-05-19 05:11:21 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 05:52:07 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 05:52:11 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 05:52:54 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 05:53:06 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 05:53:22 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-19 06:03:46 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-19 06:04:11 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-19 06:04:55 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-19 06:04:58 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-19 06:05:54 --> syntax error, unexpected '}'
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-19 06:06:23 --> syntax error, unexpected '}'
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-19 06:06:59 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-19 06:09:50 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-19 06:10:10 --> There is no data to update.
+#0 C:\laragon\www\travelguide1\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\laragon\www\travelguide1\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\laragon\www\travelguide1\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(80): CodeIgniter\Model->update(Array)
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}

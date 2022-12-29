@@ -1,0 +1,372 @@
+CRITICAL - 2022-06-12 05:31:49 --> Invalid argument supplied for foreach()
+#0 C:\laragon\www\eguide\app\Views\homepage.php(450): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\laragon\\www\\...', 450, Array)
+#1 C:\laragon\www\eguide\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\eguide\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\eguide\system\Common.php(1089): CodeIgniter\View\View->render('homepage', Array, true)
+#4 C:\laragon\www\eguide\app\Controllers\ProfileController.php(18): view('homepage', Array)
+#5 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#6 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-06-12 23:35:11 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:37:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('place')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:37:58 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('place')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:42:17 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:42:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:42:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:43:06 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:43:12 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:21 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:55 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:56 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:57 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:57 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:43:57 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:44:05 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:44:09 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:44:42 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:44:53 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:45:01 --> syntax error, unexpected ','
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:45:55 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:46:46 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category', 'Restaurant')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:47:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:47:05 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:47:05 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:01 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:23 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category', 'Restaurant')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:43 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:44 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:48:45 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:49:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:49:29 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:49:30 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-06-12 23:55:47 --> syntax error, unexpected '=', expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:56:12 --> syntax error, unexpected ''Restaurant'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:56:46 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:56:48 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:56:48 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:58:14 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:58:42 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-12 23:59:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::get() must be of the type int or null, string given, called in C:\laragon\www\eguide\system\Model.php on line 728
+#0 C:\laragon\www\eguide\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('category')
+#1 C:\laragon\www\eguide\app\Controllers\RestaurantController.php(15): CodeIgniter\Model->__call('get', Array)
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}

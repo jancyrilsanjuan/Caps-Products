@@ -1,0 +1,11 @@
+CRITICAL - 2022-05-02 07:40:46 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\travelguide\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\travelguide\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}

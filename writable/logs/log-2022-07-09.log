@@ -1,0 +1,14 @@
+ERROR - 2022-07-09 06:54:17 --> Error connecting to the database: Unknown database 'eguide'
+CRITICAL - 2022-07-09 06:54:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'eguide'
+#0 C:\Users\jancy\Desktop\aken\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\jancy\Desktop\aken\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\jancy\Desktop\aken\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\jancy\Desktop\aken\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\jancy\Desktop\aken\app\Controllers\ProfileController.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\jancy\Desktop\aken\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#6 C:\Users\jancy\Desktop\aken\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\Users\jancy\Desktop\aken\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\jancy\Desktop\aken\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\jancy\Desktop\aken\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jancy\\...')
+#10 {main}

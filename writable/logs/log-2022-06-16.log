@@ -1,0 +1,205 @@
+CRITICAL - 2022-06-16 11:06:15 --> syntax error, unexpected 'return' (T_RETURN), expecting ']'
+#0 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\eguide\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-06-16 11:52:13 --> Call to a member function findAll() on null
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 11:56:08 --> Call to a member function where() on null
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 11:56:22 --> Call to a member function where() on null
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 11:56:54 --> Call to a member function findAll() on null
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 12:01:55 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-16 12:02:06 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\eguide\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('RestaurantContr...')
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('RestaurantContr...')
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-06-16 12:05:07 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\eguide\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-06-16 12:05:26 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\eguide\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\eguide\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\eguide\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-06-16 20:42:19 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotcal()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 21:20:57 --> Class 'App\Controllers\PasalubongModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\PasalubongController->passan()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 21:57:46 --> Class 'App\Controllers\RestaurantModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\RestaurantController->restaurant('273')
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:33:01 --> Invalid file: accomodation_list.php
+#0 C:\laragon\www\eguide_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('accomodation_li...')
+#1 C:\laragon\www\eguide_login\system\Common.php(1089): CodeIgniter\View\View->render('accomodation_li...', Array, true)
+#2 C:\laragon\www\eguide_login\app\Controllers\HotelsController.php(11): view('accomodation_li...')
+#3 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->accomodation_list()
+#4 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#5 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-06-16 22:39:43 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:39:44 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:39:45 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:39:45 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:39:46 --> Class 'App\Controllers\AccomodationModel' not found
+#0 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#1 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-16 22:40:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:18 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:40:30 --> syntax error, unexpected 'namespace' (T_NAMESPACE), expecting identifier (T_STRING) or function (T_FUNCTION) or const (T_CONST) or \\ (T_NS_SEPARATOR)
+#0 C:\laragon\www\eguide_login\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\eguide_login\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Acco...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Acco...')
+#3 C:\laragon\www\eguide_login\app\Controllers\HotelsController.php(12): spl_autoload_call('App\\Models\\Acco...')
+#4 C:\laragon\www\eguide_login\system\CodeIgniter.php(832): App\Controllers\HotelsController->hotel_list()
+#5 C:\laragon\www\eguide_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#6 C:\laragon\www\eguide_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\eguide_login\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\eguide_login\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-06-16 22:41:02 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:04 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:05 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:05 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-16 22:41:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,91 @@
+CRITICAL - 2022-10-20 21:12:09 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:12:18 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:13:44 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:13:52 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:14:01 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:14:09 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:14:19 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:15:07 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:15:14 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:15:24 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:15:37 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:15:41 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-20 21:16:01 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

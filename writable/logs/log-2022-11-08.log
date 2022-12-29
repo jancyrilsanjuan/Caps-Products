@@ -1,0 +1,28 @@
+CRITICAL - 2022-11-08 04:29:48 --> Invalid file: include/tag_place.php
+#0 C:\laragon\www\Capstone-reco\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/tag_pla...')
+#1 C:\laragon\www\Capstone-reco\system\View\View.php(424): CodeIgniter\View\View->render('include/tag_pla...', NULL, true)
+#2 C:\laragon\www\Capstone-reco\app\Views\destination_page.php(108): CodeIgniter\View\View->include('include/tag_pla...')
+#3 C:\laragon\www\Capstone-reco\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\Capstone-reco\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\Capstone-reco\system\Common.php(1089): CodeIgniter\View\View->render('destination_pag...', Array, true)
+#6 C:\laragon\www\Capstone-reco\app\Controllers\DestinationController.php(33): view('destination_pag...', Array)
+#7 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->morbaco()
+#8 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#9 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2022-11-08 04:29:58 --> Invalid file: include/tag_place.php
+#0 C:\laragon\www\Capstone-reco\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('include/tag_pla...')
+#1 C:\laragon\www\Capstone-reco\system\View\View.php(424): CodeIgniter\View\View->render('include/tag_pla...', NULL, true)
+#2 C:\laragon\www\Capstone-reco\app\Views\destination_page.php(108): CodeIgniter\View\View->include('include/tag_pla...')
+#3 C:\laragon\www\Capstone-reco\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\Capstone-reco\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\Capstone-reco\system\Common.php(1089): CodeIgniter\View\View->render('destination_pag...', Array, true)
+#6 C:\laragon\www\Capstone-reco\app\Controllers\DestinationController.php(20): view('destination_pag...', Array)
+#7 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->morcal()
+#8 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#9 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}

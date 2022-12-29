@@ -1,0 +1,63 @@
+CRITICAL - 2022-10-01 18:14:49 --> Class 'App\Controllers\ImageUpload' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:18:52 --> Class 'App\Controllers\ImageUpload' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:19:27 --> Class 'App\Controllers\ImageUpload' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:19:42 --> Class 'App\Controllers\ImageUpload' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:20:08 --> Call to a member function where() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:20:09 --> Call to a member function where() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:20:10 --> Call to a member function where() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 18:20:11 --> Call to a member function where() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\HotelsController->test2('144')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-10-01 22:07:28 --> Class 'App\Controllers\ImageUpload' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\RestaurantController->test3('293')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

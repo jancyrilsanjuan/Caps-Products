@@ -1,0 +1,242 @@
+CRITICAL - 2022-11-30 00:39:36 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\Capstone-reco\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-11-30 00:39:39 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-11-30 00:39:44 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-11-30 00:43:04 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-11-30 00:43:08 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-11-30 02:18:09 --> Call to a member function set() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 02:18:48 --> Call to a member function set() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 02:20:51 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:05:46 --> auth filter must have a matching alias defined.
+#0 C:\laragon\www\Capstone-reco\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:06:41 --> auth filter must have a matching alias defined.
+#0 C:\laragon\www\Capstone-reco\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:07:19 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->user_profile()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:07:21 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->user_profile()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:07:22 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->user_profile()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:07:22 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->user_profile()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:07:22 --> Class 'App\Controllers\UserModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->user_profile()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:12:07 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:15:04 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:51:20 --> syntax error, unexpected ']'
+#0 C:\laragon\www\Capstone-reco\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProfileControll...')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ProfileControll...')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-11-30 03:59:01 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 03:59:04 --> Class 'App\Controllers\RateModel' not found
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 04:03:58 --> syntax error, unexpected '=', expecting ']'
+#0 C:\laragon\www\Capstone-reco\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('ProfileControll...')
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('ProfileControll...')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-11-30 21:00:59 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Capstone-reco\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-11-30 21:01:28 --> Call to a member function post() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:01:42 --> Call to a member function post() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:02:54 --> Call to a member function adminLogin() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:03:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\Capstone-reco\app\Controllers\SigninController.php(33): count(NULL)
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#4 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2022-11-30 21:04:02 --> Call to a member function view() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:04:51 --> Call to a member function view() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:05:02 --> Call to a member function view() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:08:42 --> Call to a member function view() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->adminauth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-11-30 21:08:58 --> Call to a member function view() on null
+#0 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\SigninController->adminauth()
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

@@ -1,0 +1,9 @@
+body {
+	margin-bottom: 60px; /* Margin bottom by footer height */
+  padding-top: 54px;
+  background-image: url('assets/top.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}

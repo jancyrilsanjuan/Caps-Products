@@ -1,0 +1,8 @@
+CRITICAL - 2022-12-06 00:05:20 --> Division by zero
+#0 C:\laragon\www\Capstone-reco\app\Controllers\ProfileController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\laragon\\www\\...', 98, Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->rates('24')
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}

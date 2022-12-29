@@ -1,0 +1,67 @@
+ERROR - 2022-06-03 00:02:10 --> Unknown column 'filename' in 'field list'
+CRITICAL - 2022-06-03 00:02:10 --> Unknown column 'filename' in 'field list'
+#0 C:\laragon\www\Capstone\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `im...', 0)
+#1 C:\laragon\www\Capstone\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `im...')
+#2 C:\laragon\www\Capstone\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `im...')
+#3 C:\laragon\www\Capstone\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `im...', Array, false)
+#4 C:\laragon\www\Capstone\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Capstone\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Capstone\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Capstone\app\Controllers\DropzoneController.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#9 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#10 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2022-06-03 00:06:35 --> There is no data to insert.
+#0 C:\laragon\www\Capstone\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\Capstone\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\laragon\www\Capstone\app\Controllers\DropzoneController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#4 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#5 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-06-03 06:31:01 --> There is no data to insert.
+#0 C:\laragon\www\Capstone\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\Capstone\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\laragon\www\Capstone\app\Controllers\DropzoneController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#4 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#5 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-06-03 06:38:16 --> There is no data to insert.
+#0 C:\laragon\www\Capstone\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\Capstone\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\laragon\www\Capstone\app\Controllers\DropzoneController.php(29): CodeIgniter\Model->insert(Array)
+#3 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#4 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#5 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-06-03 06:42:31 --> Call to a member function getName() on null
+#0 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#1 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#2 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-03 06:48:10 --> Call to a member function getName() on null
+#0 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#1 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#2 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-03 06:50:37 --> Call to a member function getName() on null
+#0 C:\laragon\www\Capstone\system\CodeIgniter.php(832): App\Controllers\DropzoneController->dropzoneStore()
+#1 C:\laragon\www\Capstone\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#2 C:\laragon\www\Capstone\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\Capstone\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\Capstone\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

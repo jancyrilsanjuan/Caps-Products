@@ -1,0 +1,32 @@
+ERROR - 2022-10-08 18:28:39 --> Column 'place' cannot be null
+CRITICAL - 2022-10-08 18:28:39 --> Column 'place' cannot be null
+#0 C:\laragon\www\Capstone-reco\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\laragon\www\Capstone-reco\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\laragon\www\Capstone-reco\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\laragon\www\Capstone-reco\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\laragon\www\Capstone-reco\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Capstone-reco\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Capstone-reco\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Capstone-reco\app\Controllers\DropzoneController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DropzoneController->destination_images()
+#9 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#10 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#13 {main}
+ERROR - 2022-10-08 18:30:37 --> Column 'place' cannot be null
+CRITICAL - 2022-10-08 18:30:37 --> Column 'place' cannot be null
+#0 C:\laragon\www\Capstone-reco\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\laragon\www\Capstone-reco\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\laragon\www\Capstone-reco\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\laragon\www\Capstone-reco\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\laragon\www\Capstone-reco\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Capstone-reco\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Capstone-reco\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Capstone-reco\app\Controllers\DropzoneController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DropzoneController->destination_images()
+#9 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DropzoneController))
+#10 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#13 {main}

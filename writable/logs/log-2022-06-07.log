@@ -1,0 +1,38 @@
+ERROR - 2022-06-07 00:07:13 --> Column 'latitude' cannot be null
+CRITICAL - 2022-06-07 00:07:13 --> Column 'latitude' cannot be null
+#0 C:\laragon\www\eguide\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\laragon\www\eguide\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\laragon\www\eguide\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\laragon\www\eguide\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\laragon\www\eguide\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\eguide\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\eguide\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\eguide\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\eguide\app\Controllers\HotelsController.php(173): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\HotelsController->accInsert()
+#10 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HotelsController))
+#11 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2022-06-07 22:58:14 --> Class 'App\Controllers\PasalubongModel' not found
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-07 22:59:06 --> Class 'App\Controllers\PasalubongModel' not found
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-06-07 23:01:57 --> Class 'App\Controllers\PasalubongModel' not found
+#0 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pascal()
+#1 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#2 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

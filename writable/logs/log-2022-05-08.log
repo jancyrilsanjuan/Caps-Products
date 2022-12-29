@@ -1,0 +1,150 @@
+CRITICAL - 2022-05-08 06:15:37 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:20:13 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:22:20 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:22:38 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:24:03 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:56:22 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:56:23 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:56:43 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:56:44 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:56:44 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:58:54 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:59:20 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:59:21 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 06:59:21 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-08 07:00:22 --> Invalid file: calapan.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calapan.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('calapan', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(13): view('calapan')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->rescal()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}

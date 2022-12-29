@@ -1,0 +1,185 @@
+CRITICAL - 2022-05-18 13:50:52 --> syntax error, unexpected ']'
+#0 C:\laragon\www\travelguide1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\travelguide1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-18 15:24:21 --> Class name must be a valid object or a string
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\DestinationController->update('2')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 15:25:50 --> Class name must be a valid object or a string
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\DestinationController->update('2')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 15:34:21 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\laragon\www\travelguide1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\travelguide1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-05-18 15:34:23 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 15:34:41 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 15:34:42 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 15:40:00 --> Call to undefined method App\Controllers\SigninController::verification()
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->forgetpass()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 16:06:12 --> Invalid file: changepass.php
+#0 C:\laragon\www\travelguide1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('changepass.php')
+#1 C:\laragon\www\travelguide1\system\Common.php(1089): CodeIgniter\View\View->render('changepass', Array, true)
+#2 C:\laragon\www\travelguide1\app\Controllers\SigninController.php(60): view('changepass', Array)
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->passwordreset('fmdgvdkmfl')
+#4 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-18 16:46:46 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 16:47:11 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 16:47:40 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 C:\laragon\www\travelguide1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('SigninControlle...')
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('SigninControlle...')
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-05-18 16:55:12 --> Call to a member function save() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->reset()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:20:22 --> Call to a member function set() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:21:31 --> Call to a member function set() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:22:08 --> Call to a member function set() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:22:15 --> Call to a member function set() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:23:05 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:23:45 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:24:40 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:25:39 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:25:53 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:26:16 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-05-18 17:26:36 --> Call to a member function where() on null
+#0 C:\laragon\www\travelguide1\system\CodeIgniter.php(832): App\Controllers\SigninController->changep()
+#1 C:\laragon\www\travelguide1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#2 C:\laragon\www\travelguide1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\travelguide1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\travelguide1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}

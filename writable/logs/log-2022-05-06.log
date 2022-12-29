@@ -1,0 +1,130 @@
+CRITICAL - 2022-05-06 22:56:42 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:01:49 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:05:35 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:38 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:39 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:39 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:40 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:40 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:40 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:06:43 --> Invalid file: pasalubong.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pasalubong.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('pasalubong', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\PasalubongController.php(9): view('pasalubong')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\PasalubongController->pasalubong()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PasalubongController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:10:16 --> Invalid file: restaurant.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restaurant.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('restaurant', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(9): view('restaurant')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->restaurant()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:10:23 --> Invalid file: restaurant.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restaurant.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('restaurant', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(9): view('restaurant')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->restaurant()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}
+CRITICAL - 2022-05-06 23:10:49 --> Invalid file: restaurant.php
+#0 C:\laragon\www\travelguide\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('restaurant.php')
+#1 C:\laragon\www\travelguide\system\Common.php(1089): CodeIgniter\View\View->render('restaurant', Array, true)
+#2 C:\laragon\www\travelguide\app\Controllers\RestaurantController.php(9): view('restaurant')
+#3 C:\laragon\www\travelguide\system\CodeIgniter.php(832): App\Controllers\RestaurantController->restaurant()
+#4 C:\laragon\www\travelguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestaurantController))
+#5 C:\laragon\www\travelguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\travelguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\laragon\www\travelguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#8 {main}

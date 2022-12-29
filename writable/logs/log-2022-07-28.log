@@ -1,0 +1,13 @@
+CRITICAL - 2022-07-28 22:21:24 --> include(config.php): failed to open stream: No such file or directory
+#0 C:\laragon\www\aken-1\app\Views\destination_details.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config....', 'C:\\laragon\\www\\...', 204, Array)
+#1 C:\laragon\www\aken-1\app\Views\destination_details.php(204): include()
+#2 C:\laragon\www\aken-1\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\aken-1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\aken-1\system\Common.php(1089): CodeIgniter\View\View->render('destination_det...', Array, true)
+#5 C:\laragon\www\aken-1\app\Controllers\ProfileController.php(64): view('destination_det...', Array)
+#6 C:\laragon\www\aken-1\system\CodeIgniter.php(832): App\Controllers\ProfileController->test('6')
+#7 C:\laragon\www\aken-1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#8 C:\laragon\www\aken-1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\aken-1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\aken-1\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#11 {main}

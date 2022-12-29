@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url("https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg");
+  height: 620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container{
+  text-align: center;
+  color: #111;
+  background: transparent;
+
+}
+
+.h1{
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+CRITICAL - 2022-09-04 00:47:38 --> Invalid file: index/submit_rating.php
+#0 C:\Users\jancy\Desktop\Capstone-reco\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index/submit_ra...')
+#1 C:\Users\jancy\Desktop\Capstone-reco\system\View\View.php(424): CodeIgniter\View\View->render('index/submit_ra...', NULL, true)
+#2 C:\Users\jancy\Desktop\Capstone-reco\app\Views\destination_details.php(196): CodeIgniter\View\View->include('index/submit_ra...')
+#3 C:\Users\jancy\Desktop\Capstone-reco\system\View\View.php(210): include('C:\\Users\\jancy\\...')
+#4 C:\Users\jancy\Desktop\Capstone-reco\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\jancy\Desktop\Capstone-reco\system\Common.php(1089): CodeIgniter\View\View->render('destination_det...', Array, true)
+#6 C:\Users\jancy\Desktop\Capstone-reco\app\Controllers\ProfileController.php(64): view('destination_det...', Array)
+#7 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\ProfileController->test('6')
+#8 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\jancy\Desktop\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\jancy\Desktop\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jancy\\...')
+#12 {main}

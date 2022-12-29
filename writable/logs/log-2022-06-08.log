@@ -1,0 +1,34 @@
+ERROR - 2022-06-08 04:24:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-08 04:24:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\eguide\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\eguide\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\eguide\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\eguide\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\eguide\app\Controllers\ProfileController.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#6 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-06-08 04:26:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-08 04:26:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\laragon\www\eguide\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\eguide\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#2 C:\laragon\www\eguide\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\laragon\www\eguide\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\laragon\www\eguide\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\laragon\www\eguide\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\laragon\www\eguide\app\Controllers\DestinationController.php(181): CodeIgniter\BaseModel->save(Array)
+#7 C:\laragon\www\eguide\system\CodeIgniter.php(832): App\Controllers\DestinationController->actionInsert()
+#8 C:\laragon\www\eguide\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#9 C:\laragon\www\eguide\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\eguide\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\eguide\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#12 {main}

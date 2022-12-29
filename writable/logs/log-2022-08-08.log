@@ -1,0 +1,10 @@
+CRITICAL - 2022-08-08 04:28:58 --> Invalid file: tagging_place.php
+#0 C:\Users\jancy\Desktop\Capstone-reco\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tagging_place.p...')
+#1 C:\Users\jancy\Desktop\Capstone-reco\system\Common.php(1089): CodeIgniter\View\View->render('tagging_place', Array, true)
+#2 C:\Users\jancy\Desktop\Capstone-reco\app\Controllers\AdminController.php(15): view('tagging_place')
+#3 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\AdminController->tagging_place()
+#4 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 C:\Users\jancy\Desktop\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\jancy\Desktop\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\jancy\Desktop\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\jancy\\...')
+#8 {main}

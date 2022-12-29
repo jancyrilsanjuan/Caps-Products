@@ -1,0 +1,16 @@
+CRITICAL - 2022-10-03 20:44:52 --> Call to undefined method App\Models\DestinationModel::getGet
+#0 C:\laragon\www\Capstone-reco\app\Controllers\DestinationController.php(47): CodeIgniter\Model->__call('getGet', Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->morcal()
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
+CRITICAL - 2022-10-03 20:45:16 --> Call to undefined method App\Models\DestinationModel::getGet
+#0 C:\laragon\www\Capstone-reco\app\Controllers\DestinationController.php(47): CodeIgniter\Model->__call('getGet', Array)
+#1 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(832): App\Controllers\DestinationController->morcal()
+#2 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DestinationController))
+#3 C:\laragon\www\Capstone-reco\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Capstone-reco\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\laragon\www\Capstone-reco\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#6 {main}
