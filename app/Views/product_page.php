@@ -44,8 +44,9 @@
                     <img src="<?= base_url('im/products/'. $des['image']) ?>" alt="">
                   </div>
                   <div class="place_info">
-                    <a href="/test1/<?=$des['id']?>"><h3><?=$des['name']?></h3></a>
+                    <p><?=$des['name']?></p>
                     <p><?=$des['location']?></p>
+                    <p><?=$des['fare']?></p>
                   </div>
                 </div>
               </div>

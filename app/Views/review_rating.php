@@ -9,7 +9,6 @@
     </div>
 
     <?= $this->include('include/admin/navbar')?>
-
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <?= $this->include('include/admin/logo')?>
@@ -84,6 +83,7 @@
       </div>
       <!-- Main content -->
       <section class="content">
+
         <div class="card-body">
           <div class="tab-content">
             <div class="tab-pane active" id="tab_1">
@@ -112,6 +112,11 @@
                                 <td><?=$review['user_name']?></td>
                                 <td><?=$review['user_rating']?></td>
                                 <td><?=$review['user_review']?></td>
+                                <td class="project-actions text-right">
+                                <a class="btn btn-danger btn-sm" href="reject.php?id=<?php echo $row?>">
+                                  Decline
+                                </a>
+                              </td>
                               </tr>
                             <?php endforeach; ?>
                           <?php endif; ?>
